@@ -11,6 +11,23 @@ body {
     opacity: 0.9;
 }
 
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+}
+
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
 
 
 h2, h3, h4 {
@@ -31,17 +48,24 @@ h2, h3, h4 {
     display: block;
 }
 
+
+
+.item {
+    padding: 5px;
+}
+
 .flex-container img{
 	
 	height: 50px;
-	padding-left: 10px;
+	padding-left: 0px;
+	
 	
 }
 
 .flex-container.items{
 	
 	width: 1000px;
-	height: 530px;
+	/*height: 530px;*/
 	
 }
 
@@ -81,6 +105,7 @@ nav a {
   #locations {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
     height: 500px;
+    width: 1200px;
     padding-top: 70px;
 }
 
@@ -96,7 +121,26 @@ nav a {
     width: 300px;
 }
 
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
 #contact {
     height: 200px;
+   /* width: 1200px;*/
+    
+}
+
+footer {
+	
+	text-align: left;
+	margin: 20px;
+	
 }
 
