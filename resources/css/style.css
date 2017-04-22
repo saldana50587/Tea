@@ -50,7 +50,7 @@ h2, h3, h4 {
 header img{
 	
 	height: 50px;
-	padding-left: 0px;
+	padding-left: 10px;
 	
 	
 }
@@ -85,7 +85,7 @@ nav a {
 	height: 700px;
 	border-bottom: 1px solid seashell;
 	padding-top: 69px;
-	 width: 1200px;
+	 width: auto;
 
 }
 
@@ -127,7 +127,7 @@ nav span {
 
 #contact {
     height: 200px;
-   /* width: 1200px;*/
+ 
     
 }
 
